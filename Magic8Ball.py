@@ -1,7 +1,7 @@
 import random
 
-Name = input("What's your name")
-question = input("What's your question")
+Name = input("What's your name? ")
+question = input("What's your question? ")
 
 Answer = ""
 random_number = random.randint(1, 9)
@@ -28,4 +28,4 @@ else:
   Answer = "Error"
 
 print(Name + " asks: " + question)
-print("Magic 8-Ball's answer" + Answer)
+print("Magic 8-Ball's answer: " + Answer)
